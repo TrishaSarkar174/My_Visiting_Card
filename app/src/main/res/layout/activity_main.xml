@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="350dp"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:background="@drawable/visiting_card_background"
+    android:id="@+id/main">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- My Image -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/myimageround"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            />
+
+        <!-- My Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_name"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#080852"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <!-- My Profession -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="10sp"
+            android:textColor="#080852"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp"
+            >
+
+            <!-- My Contact Info -->
+            <ImageView
+                android:id="@+id/ContactID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/phone"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#080852"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <!-- Gmail Info -->
+            <ImageView
+                android:id="@+id/mailID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/gmail"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gmail"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#080852"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <!-- My Website -->
+            <ImageView
+                android:id="@+id/websiteID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/internet"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#080852"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <!-- My Location -->
+            <ImageView
+                android:id="@+id/LocationID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/map"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#080852"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Social Media Icons  -->
+            <ImageView
+                android:id="@+id/facebookID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/facebook"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/whatsappID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/whatsapp"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/LinkedinID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/linkedin"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/githubID"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/github"
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
